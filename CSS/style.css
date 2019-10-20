@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: rgb(0,158,195); 
+    background: -moz-linear-gradient(45deg,  rgba(0,158,195,1) 0%, rgba(0,183,234,1) 100%); 
+    background: -webkit-linear-gradient(45deg,  rgba(0,158,195,1) 0%,rgba(0,183,234,1) 100%); 
+    background: linear-gradient(45deg,  rgba(0,158,195,1) 0%,rgba(0,183,234,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ec3', endColorstr='#00b7ea',GradientType=1 ); 
+}
+header{
+    width: 58%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header li{
+    display: inline-block;
+    padding: 20px;
+}
+header li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+header li a img{
+    height: 30px;
+}
+section{
+    width: 100%;
+    display: inline-block;
+}
+
+div{}
+.image{
+    width: 30%;
+    float: left;
+    display: inline-block;
+}
+.image img{
+    width: 100%;
+}
+.signup_box{
+    width: 70%;
+    height: 100vh;
+    background: #4682b421;
+    float: right;
+    display: inline-block;
+    text-align: center;
+}
+.signup_box h1{
+    font-size: 30px;
+}
+.signup_box p{
+    font-size: 20px;
+}
+.signup_form{margin: 0;padding: 10px 300px;}
+.signup_form form{
+    background: antiquewhite;
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.signup_form form label{
+}
+.signup_form form input{
+    width: 100%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #55555540;
+}
+.signup_form form input[type="submit"]{
+    background: cornflowerblue;
+    color: #ffffff;
+    font-weight: 600;
+}
+.signup_form p{}
+.signup_form p a{
+    text-decoration: none;
+    color: #ffffff;
+}
